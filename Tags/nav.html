@@ -1,0 +1,53 @@
+<!-- nav Element
+The <nav> element is a semantic HTML5 element used specifically to define a block of navigation links. It indicates that its content is intended for navigation purposes, such as a menu or list of links that lead to other parts of the website or external sites.
+
+Characteristics of <nav>
+Semantic Element: Conveys a specific meaning that its content is related to navigation.
+Block-Level Element: Behaves like a block element and typically contains a list of links.
+Accessible: Helps search engines and assistive technologies understand the structure of your website better.
+Use Cases for <nav>
+Primary Navigation: Used to create the main navigation menu of a website.
+Secondary Navigation: Can be used for secondary or footer navigation links.
+In-Page Navigation: Used for internal page links, like table of contents or section links. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Example</title>
+    <style>
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
